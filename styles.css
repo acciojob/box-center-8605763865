@@ -1,20 +1,22 @@
-#eg1{
-	height:200px;
-	width:200px;
-	border:black thick:2px;
-	background-color:lightblue;
-	margin:auto;
-	margin-top:vh centre;
-	text-align:centre;
-	vertical-margin:auto;
-	color:purple;
-	position:absolute;
-	top:50%;
-	right:50%;
-}
-p{
-	position:absolute;
-	top:50%;
-	right:50%;
-}
+ div {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+p {
+            color: purple;
+            margin: 0;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
